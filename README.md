@@ -2,6 +2,29 @@
 
 Live-Science turns concepts from technical or educational documents into dynamic instructional videos. The three-phase workflow in `modules/` is the core production pipeline, while `web/` provides the product interface.
 
+## Technical Report
+
+The report describes the three-phase production pipeline, the Bridge handoff between stages, and how the workflow was tested with an oxbow-lake formation video.
+
+[Open the full PDF](live-science-report-updated.pdf)
+
+<a href="live-science-report-updated.pdf"><img src="docs/report-preview/page-1.png" width="600" alt="Live-Science Technical Report cover, dated 6 August 2026"></a>
+
+<details>
+<summary>Read the report here (pages 2–6)</summary>
+
+![Page 2 of 6. Abstract, introduction, and project objectives.](docs/report-preview/page-2.png)
+
+![Page 3 of 6. Repository architecture, deterministic rendering, and the Bridge contract.](docs/report-preview/page-3.png)
+
+![Page 4 of 6. Keyframe and video generation, validation, and AMD Radeon GPU use.](docs/report-preview/page-4.png)
+
+![Page 5 of 6. Oxbow-lake formation case study, strengths, and limitations.](docs/report-preview/page-5.png)
+
+![Page 6 of 6. Future work, conclusion, and references.](docs/report-preview/page-6.png)
+
+</details>
+
 ## Core Production Workflow
 
 The workflow in `modules/` transforms a user concept or teaching process into a captioned, publishable instructional video:
